@@ -25,3 +25,9 @@ nnoremap <C-d> :NERDTreeToggle<CR>
 
 " Automatically open NERDTree workdir to current files directory
 autocmd BufEnter * lcd %:p:h
+
+" Do not use arrow keys
+noremap <Up> <Nop>
+noremap <Down> <Nop>
+noremap <Left> <Nop>
+noremap <Right> <Nop>
